@@ -12,7 +12,7 @@ namespace TaskKill
         static void Main(string[] args)
         {
             DateTime date1 = new DateTime();
-            DateTime date2 = new DateTime(2020, 11, 24, 23, 0, 0);
+            DateTime date2 = new DateTime(2020, 11, 24, 13, 0, 0);
             int result = DateTime.Compare(date1, date2);
 
             Console.WriteLine("12");
